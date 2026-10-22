@@ -3,7 +3,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Framework: FastAPI](https://img.shields.io/badge/Framework-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
 [![Inference: Ollama](https://img.shields.io/badge/Inference-Ollama-orange.svg)](https://ollama.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 Official implementation of the **Dual-Guardrail Heterogeneous Multi-Agent Consensus Framework** for interrupting and preventing hallucination cascading in Large Language Model (LLM) agent architectures.
 
@@ -223,24 +223,9 @@ uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
 
 ## 👥 Authors & Affiliation
 
-* **Achyut Chandrashekhar** — *Department of Computer Engineering, CMR University, Bengaluru, India* (`achyut.chandrashekhar@cmr.edu.in`)
-* **Krishna Patil** — *Department of Computer Engineering, CMR University, Bengaluru, India* (`krishna.patil@cmr.edu.in`)
-* **Priya Mendegar** — *Department of Computer Engineering, CMR University, Bengaluru, India* (`priya.mendegar@cmr.edu.in`)
-* **Dr. Kiran Kumari Patil** — *Department of Computer Engineering, CMR University, Bengaluru, India* (`kirankumari.p@cmr.edu.in`)
-
----
-
-## 📜 Citation
-
-If you find this work or codebase helpful in your research, please cite:
-
-```bibtex
-@inproceedings{chandrashekhar2026mitigating,
-  title={Mitigating Hallucination Snowballing in Multi-Agent LLMs via Heterogeneous Semantic Clustering and Dual Guardrails},
-  author={Chandrashekhar, Achyut and Patil, Krishna and Mendegar, Priya and Patil, Kiran Kumari},
-  booktitle={Proceedings of the Conference on Large Language Models and Multi-Agent Systems},
-  year={2026}
-}
-```
+* **Achyut Chandrashekhar Bhat** — *Department of Computer Engineering, CMR University, Bengaluru, India* 
+* **Krishna Patil** — *Department of Computer Engineering, CMR University, Bengaluru, India* 
+* **Priya Mendegar** — *Department of Computer Engineering, CMR University, Bengaluru, India* 
+* **Dr. Kiran Kumari Patil** — *Department of Computer Engineering, CMR University, Bengaluru, India* 
 
 ---
