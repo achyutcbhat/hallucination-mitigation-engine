@@ -1,0 +1,27 @@
+# Virtual Environment (Must NOT be uploaded)
+venv/
+.venv/
+env/
+
+# Sensitive API Keys & Environment Variables
+.env
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite
+.lock
+
+# Test and Evaluation temporary folders
+hellucination*/
+*.tmp
+.pytest_cache/
+
+# Local Vector Database data
+data/qdrant_storage/
+
+# System files
+.DS_Store
+Thumbs.db

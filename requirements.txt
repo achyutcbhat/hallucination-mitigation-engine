@@ -1,0 +1,27 @@
+# Web framework & validation
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# LLM & Agent client
+ollama>=0.3.0
+requests>=2.31.0
+
+# NLP & Entity processing
+spacy>=3.7.0
+sentence-transformers>=3.0.0
+transformers>=4.40.0
+torch>=2.2.0
+
+# Graph & Math
+networkx>=3.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Vector database (local embedded)
+qdrant-client>=1.9.0
+
+# Search & Verification Fallback
+duckduckgo-search>=6.0.0
+trafilatura>=1.9.0
