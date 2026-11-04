@@ -128,7 +128,7 @@ Evaluated on a comprehensive benchmark of **200 challenging queries** (including
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/hallucination-mitigation-engine.git
+git clone https://github.com/achyutcbhat/hallucination-mitigation-engine.git
 cd hallucination-mitigation-engine
 ```
 
