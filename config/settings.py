@@ -38,11 +38,11 @@ class Settings(BaseSettings):
     # Stage 6: Dual Guardrail Verification
     NLI_MODEL_NAME: str = "cross-encoder/nli-deberta-v3-base"
     QDRANT_COLLECTION_NAME: str = "evidence_store"
-    GOOGLE_KG_API_KEY: str = "put your Google KG key"
+    GOOGLE_KG_API_KEY: str = " " #paste your google Knowledge gragh api key
 
     # Stage 7: Decision Thresholds & Gemini Google Search Grounding
     # 👇👇👇 PASTE YOUR GEMINI API KEY HERE 👇👇👇
-    GEMINI_API_KEY: str = "put your gemini API key"
+    GEMINI_API_KEY: str = " "
 
     VERIFIED_THRESHOLD: float = 0.75  # Score > 0.75 -> Final Answer
     UNCERTAIN_THRESHOLD: float = 0.45  # 0.45 <= Score <= 0.75 -> Web Fallback
